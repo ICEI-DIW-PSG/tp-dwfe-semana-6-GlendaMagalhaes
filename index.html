@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Inhotim - Arte e Natureza</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header class="header" id="home">
+        <h1 class="logo">INHOTIM</h1>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#exposicoes">EXPOSIÇÕES</a></li>
+                <li><a href="#visitacao">VISITAÇÃO</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>   
+
+    <main>
+        <section class="banner">
+            <img src="img/inhotimbanner.jpg" alt="Imagem do Inhotim">
+            <h2>Explore arte e natureza em um só lugar</h2>
+        </section>
+        <section class="exposicoes" id="exposicoes">
+            <h2>Exposições</h2>
+
+            <div class="galerias">
+
+                <article class="galeria">
+                    <img src="img/galeriaadrianavarejao.jpg" alt="Galeria Adriana Varejão">
+                    <h3>Galeria Adriana Varejão</h3>
+                    <p>Obras contemporâneas em meio à natureza.</p>
+                </article>
+                <article class="galeria">
+                    <img src="img/galeriayayoikusama.jpg" alt="Galeria Yayoi Kusama">
+                    <h3>Galeria Yayoi Kusama</h3>
+                    <p>Experiência imersiva com arte moderna.</p>
+                </article>
+
+                <article class="galeria">
+                    <img src="img/galeriaclaudiaandujar.jpg" alt="Galeria Cláudia Andujar">
+                    <h3>Galeria Cláudia Andujar</h3>
+                    <p>Instalações artísticas ao ar livre.</p>
+                </article>
+
+            </div>
+        </section>
+        <section class="experiencias" id="visitacao">
+            <h2>Experiências</h2>
+            <ul>
+                <li>Trilhas ecológicas</li>
+                <li>Visitas guiadas</li>
+                <li>Eventos culturais</li>
+            </ul>
+        </section>
+        <section class="formulario" id="contato">
+            <h2>Receba novidades e informações sobre eventos</h2>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite seu email">
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Contato | Localização | Redes Sociais</p>
+    </footer>
+
 </body>
 </html>
