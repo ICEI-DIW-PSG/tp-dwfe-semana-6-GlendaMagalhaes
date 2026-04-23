@@ -10,7 +10,7 @@
 
 <body>
     <header class="header" id="home">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-success">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">INHOTIM</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,42 +37,59 @@
      </header>   
 
     <main>
-        <section class="banner">
-            <img src="img/inhotimbanner.jpg" class="img-fluid" alt="Imagem do Inhotim">
-            <h2>Explore arte e natureza em um só lugar</h2>
-        </section>
-        <section class="exposicoes" id="exposicoes">
-            <h2>Exposições</h2>
+        <div class="container mt-4">
+    <img src="img/inhotimbanner.jpg" class="img-fluid rounded">
+</div>
 
-            <div class="galerias">
+<div class="container mt-5">
+    <h2 class="text-center">Exposições</h2>
 
-                <article class="galeria">
-                    <img src="img/galeriaadrianavarejao.jpg" alt="Galeria Adriana Varejão">
-                    <h3>Galeria Adriana Varejão</h3>
-                    <p>Obras contemporâneas em meio à natureza.</p>
-                </article>
-                <article class="galeria">
-                    <img src="img/galeriayayoikusama.jpg" alt="Galeria Yayoi Kusama">
-                    <h3>Galeria Yayoi Kusama</h3>
-                    <p>Experiência imersiva com arte moderna.</p>
-                </article>
+    <div class="row mt-4 g-4">
 
-                <article class="galeria">
-                    <img src="img/galeriaclaudiaandujar.jpg" alt="Galeria Cláudia Andujar">
-                    <h3>Galeria Cláudia Andujar</h3>
-                    <p>Instalações artísticas ao ar livre.</p>
-                </article>
-
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="img/galeriaadrianavarejao.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Adriana Varejão</h5>
+                    <p class="card-text">Obras contemporâneas em meio à natureza.</p>
+                </div>
             </div>
-        </section>
-        <section class="experiencias" id="visitacao">
-            <h2>Experiências</h2>
-            <ul>
-                <li>Trilhas ecológicas</li>
-                <li>Visitas guiadas</li>
-                <li>Eventos culturais</li>
-            </ul>
-        </section>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="img/galeriayayoikusama.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                <h5 class="card-title">Yayoi Kusama</h5>
+                 <p class="card-text">Experiência imersiva com arte moderna.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="img/galeriaclaudiaandujar.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                <h5 class="card-title">Cláudia Andujar</h5>
+                <p class="card-text">Instalações artísticas ao ar livre.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+      
+       <div class="container mt-5">
+    <h2 class="text-center">Experiências</h2>
+    <ul class="list-group mt-3">
+      <li class="list-group-item">Trilhas ecológicas</li>
+      <li class="list-group-item">Visitas guiadas</li>
+      <li class="list-group-item">Eventos culturais</li>
+    </ul>
+</div>
+<div class="container mt-5">
+    <h2 class="text-center">Receba novidades</h2>
+
         <section class="formulario" id="contato">
             <div class="mb-3">
   <label for="formGroupExampleInput" class="form-label">Nome</label>
@@ -82,13 +99,32 @@
   <label for="formGroupExampleInput2" class="form-label">E-mail</label>
   <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Digite seu e-mail">
 </div>
+</div>
         </section>
 
     </main>
 
-    <footer class="footer">
-        <p>Contato | Localização | Redes Sociais</p>
-    </footer>
+    <footer class="bg-success text-white mt-5">
+    <div class="container py-3">
+
+        <div class="row text-center">
+
+            <div class="col-md-4">
+                <p class="mb-0">Contato</p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="mb-0">Localização</p>
+            </div>
+
+            <div class="col-md-4">
+                <p class="mb-0">Redes Sociais</p>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
     
 
 </body>
