@@ -10,10 +10,10 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Glenda Magalhãeas 
+- Matricula: 927171
+- Proposta de projeto escolhida: Museu Inhotim
+- Breve descrição sobre seu projeto: Uma página com informações sobre o Inhotim, com algumas obras, localização e etc.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
